@@ -24,4 +24,6 @@ elif ejercicio == 2:
     cateto = float(input("introduzca el valor del cateto: "))
     hipotenusa2 = float(input("Introduzca la hipotenusa: "))
     cateto = math.sqrt(cateto**2 - hipotenusa2**2)
-    print ("El resultado es", cateto)
+    print ("El resultado es", cateto)   
+
+print ("-----------------------------------------------")
