@@ -1,3 +1,5 @@
 from libreria_actividad3 import crear_lista, seleccion, operaciones
 
-crear_lista() 
+num = crear_lista()
+opcion = seleccion()
+operaciones(num,opcion)

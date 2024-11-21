@@ -9,9 +9,9 @@ def crear_lista():
 def seleccion(): 
         print ("-"*40)
         opcion = int(input("""1. Sumatorio
-    2. Cuadrado de cada número
-    3. Promedio 
-    Opción: """))
+2. Cuadrado de cada número
+3. Promedio 
+Opción: """))
         return opcion
 
 def operaciones(num,opcion):
@@ -30,6 +30,4 @@ def operaciones(num,opcion):
     elif opcion == 3: 
         print("Promedio:",sum(num)/contador)
     else: 
-        print("Opción no válida.")
-
-
+         print("Opción no válida.")
