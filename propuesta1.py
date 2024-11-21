@@ -13,9 +13,9 @@ def ventas_por_dia():
 
 introducir_nombre()
 semana = ventas_por_dia()
-print ("----------------------------------")
+print ("-"*40)
 print ("lista de ventas:",semana)
 print ("Total de ventas:",sum(semana))
 print ("Máximo de ventas:",max(semana))
 print ("Mínimo de ventas:",min(semana))
-print ("----------------------------------")
+print ("-"*40)
