@@ -26,4 +26,4 @@ elif ejercicio == 2:
     cateto = math.sqrt(cateto**2 - hipotenusa2**2)
     print ("El resultado es", cateto)   
 
-print ("-----------------------------------------------")
+print ("-"*40)
