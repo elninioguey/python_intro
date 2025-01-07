@@ -5,7 +5,7 @@ def pedir_nombre():
 def ventas_por_dia():
     dic = {"Lunes":"lunes","Martes":"martes","Miercoles":"miercoles","Jueves":"juesves","Viernes":"viernes"}
     for dia in dic.keys():
-        venta = int(input("Introduzca la venta: "))
+        venta = int(input(f'"Introduzca la venta del {dia}: "'))
         dic[dia] = int(venta)
     return dic
 
